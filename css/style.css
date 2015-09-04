@@ -1,0 +1,52 @@
+body { margin: 0; padding: 0; position: relative; background-color: #e2e2e2; color: #a0a0a0; font-family: "Trebuchet MS",Arial,Helvetica,sans-serif; font-size: 13px; line-height: 18px; margin: 0; }
+
+a { color: #cb190c; text-transform: none; text-decoration: none; }
+a:hover { color: #cb190c; text-decoration: underline; }
+
+h1 { color: #252525; font: 30px/36px Bevan; font-size: 36px; }
+h2 { color: #252525; font: 30px/36px Bevan; font-size: 36px; }
+h3 { color: #252525; font: 30px/36px Bevan; font-size: 30px; }
+h4 { color: #252525; font: 30px/36px Bevan; font-size: 16px; }
+h5 { color: #252525; font: 30px/36px Bevan; font-size: 12px; }
+
+header.main-header { width: 100%; box-shadow: 0 -1px 0 #cb190c inset, 0 0 40px #3a0804; background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #8d0b0a 0%, #b01307 100%) repeat scroll 0 0; border-bottom: medium none; min-height: 66px; padding: 0; }
+header.main-header > div { background: url('../img/menu-light.png') no-repeat center center; }
+.logo { float:left; width: 270px; height: 66px; }
+.nav-top { height: 66px; margin: 0; padding: 0; }
+
+.inline-image { margin: 10px; float: left; }
+
+.top-menu { margin:0; padding:0; font: 14px/17px "Open Sans"; font-weight: 600 !important; letter-spacing: 1px; transition: all 0.3s ease 0s; }
+.top-menu li { list-style: none; float: left; } 
+.top-menu > li { height: 66px; width: 170px; border-left: 2px solid #b9150a; }
+.top-menu li a:link, 
+.top-menu li a:visited { display:block; text-decoration:none; text-transform: uppercase; /*background-color:#09F;*/ padding: 22px 2px; margin:0; color:#ffffff; font-weight: 600; font-size: 14px; }
+.top-menu > li > a { height: 66px; text-align: center; font-size: 14px; letter-spacing: 2px; transition: all 0.3s ease 0s; }
+.top-menu > li:hover { background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #950c0a 0%, #a31008 100%) repeat scroll 0 0; }
+.top-menu > li > a:hover { background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #950c0a 0%, #a31008 100%) repeat scroll 0 0; } 
+
+/*
+.top-menu > li::before { background: url("../img/menu-shadow-left.png") repeat-y scroll center left; }
+.top-menu > li::after, 
+.top-menu > li::before { background: url("../img/menu-shadow-right.png") repeat-y scroll center right; }
+.top-menu > li::after, 
+.top-menu > li::before { background: url("../img/menu-shadow-right.png") repeat-y scroll center right;  }
+*/
+
+/*style the sub menu*/ 
+.top-menu li ul { display: none; border-top: 1px solid #a31008; margin:0; padding: 20px 0; background-color: #a31008; width: 200px; } 
+.top-menu li ul li { display:inline; float:none; } 
+.top-menu li ul li a:link, 
+.top-menu li ul li a:visited { font-size: 12px; padding: 7px 20px; } 
+.top-menu li ul li a:hover { background-color: #ffffff; color: #a31008; }
+
+.services { z-index: -1; background: #9a0714 url("../img/service-light.png") no-repeat scroll 50% 0 / 100% auto; height: 468px; position: relative; width: 100%; }
+.info-panel { min-height: 70px; border-bottom: 1px solid #d1d1d1;  }
+.main-body { background-color: #ffffff; position: relative; padding: 20px 0; }
+.menu-list { list-style: none; margin: 10px 0; padding: 0; font-size: 13px; font-weight: 600; }
+.menu-list li { background: url('../img/menu-arrow.png') no-repeat left center; padding: 3px 0; padding-left: 15px; }
+.main-footer { background-color: #e2e2e2; }
+
+.btn-ok { background: linear-gradient(to bottom, #c12a17 0%, #930f0e 100%) repeat scroll 0 0; border: none; border-radius: 0; box-shadow: -1px -1px 2px #640e0d inset, 1px 1px 0 #ffffff; color: #ffffff; font: 600 14px/1.2em "Open Sans",sans-serif; letter-spacing: 1px; margin: 0; padding: 13px 23px; text-decoration: none; text-shadow: 1px 1px 1px #840c07; text-transform: uppercase; }
+.btn-cancel { border: none; font: 600 14px/1.2em "Open Sans",sans-serif; letter-spacing: 1px; margin: 0; padding: 13px 23px; color: #ffffff; border-radius: 0; background: linear-gradient(to bottom, #575757 0%, #252525 100%) repeat scroll 0 0; box-shadow: -1px -1px 2px #090909 inset, 1px 1px 0 #fff; text-shadow: 1px 1px 1px #141414; }
+.btn-ok:hover, .btn-cancel:hover { color: #ffffff; box-shadow:inset 1px 1px 0 #3f3f3f; text-shadow:none; background:#404040; background:linear-gradient(to bottom,#575757 0%,#9b9b9b 100%); }
