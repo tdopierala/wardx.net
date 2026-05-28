@@ -17,6 +17,23 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+docker/mariadb/data/
+
+# Laravel
+src/vendor/
+src/node_modules/
+src/.env
+src/storage/*.key
+src/public/hot
+src/public/storage
+
 # =========================
 # Operating System Files
 # =========================
